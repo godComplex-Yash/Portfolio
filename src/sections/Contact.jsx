@@ -34,9 +34,9 @@ const Contact = () => {
         "template_17us8im",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Yash",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "yashathisbest@gmail.com",
           message: formData.message,
         },
         "pn-Bw_mS1_QQdofuV"
@@ -64,8 +64,9 @@ const Contact = () => {
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading">Let's Talk</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're loking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            Got a project, role, or a tough engineering problem in mind?
+            I enjoy building and discussing impactful software.
+            Let’s connect and take it forward.
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
@@ -78,7 +79,7 @@ const Contact = () => {
               name="name"
               type="text"
               className="field-input field-input-focus"
-              placeholder="John Doe"
+              placeholder="your name, Sir"
               autoComplete="name"
               value={formData.name}
               onChange={handleChange}
@@ -94,7 +95,7 @@ const Contact = () => {
               name="email"
               type="email"
               className="field-input field-input-focus"
-              placeholder="JohnDoe@email.com"
+              placeholder="example@gmail.com"
               autoComplete="email"
               value={formData.email}
               onChange={handleChange}

@@ -12,15 +12,19 @@ const About = () => {
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         {/* Grid 1 */}
         <div className="flex items-end grid-default-color grid-1">
-          <img
+          {/* <img
             src="assets/coding-pov.png"
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
-          />
+          /> */}
           <div className="z-10">
-            <p className="headtext">Hi, I'm Ali Sanati</p>
+            <p className="headtext">Hi, I'm Yash Sharma</p>
             <p className="subtext">
-              Over the last 4 years, I developed my frontend and backend dev
-              skills to deliver dynamic and software and web applications.
+              I am a Full-Stack Developer, skilled in both the realms of
+              frontend and backend. <br />
+              ’m a competitive programmer and software developer with a strong foundation in C++ and data structures, currently focused on building high-performance, scalable systems. Coming from a tier-3 college, I’ve relied on problem-solving, consistency, and deep technical learning rather than shortcuts.
+              My core strength lies in low-level programming and system thinking — writing efficient C++ and Rust code, understanding how software behaves at scale, and optimizing for performance, memory, and reliability. I enjoy working close to the system, whether it’s designing backend services, building concurrent systems, or exploring latency-sensitive architectures inspired by HFT-grade engineering.
+              Alongside systems work, I build modern web applications using Node.js, TypeScript, and databases like PostgreSQL and MongoDB, and I actively explore blockchain and Web3 technologies, including smart contracts, decentralized applications, and crypto-native system design.
+              I’m highly motivated by challenging problems, clean architecture, and continuous improvement. My long-term goal is to work on impactful software where performance, correctness, and engineering depth truly matter.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -32,31 +36,40 @@ const About = () => {
             className="flex items-center justify-center w-full h-full"
           >
             <p className="flex items-end text-5xl text-gray-500">
-              CODE IS CRAFT
+              Chill it's not a bug buddy
             </p>
             <Card
               style={{ rotate: "75deg", top: "30%", left: "20%" }}
-              text="GRASP"
+              text="C++"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "75deg", top: "30%", left: "20%" }}
+              text="Rust"
+              containerRef={grid2Container}
+            /><Card
+              style={{ rotate: "75deg", top: "30%", left: "20%" }}
+              text="DSA"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-              text="SOLID"
+              text="python"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
-              text="Design Patterns"
+              text="Javascript"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "55%", left: "0%" }}
-              text="Design Principles"
+              text="operating systems & llp"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "20deg", top: "10%", left: "38%" }}
-              text="SRP"
+              text="node.js"
               containerRef={grid2Container}
             />
             <Card
@@ -64,24 +77,25 @@ const About = () => {
               image="assets/logos/csharp-pink.png"
               containerRef={grid2Container}
             />
-            <Card
+            {/* <Card
               style={{ rotate: "-45deg", top: "70%", left: "25%" }}
               image="assets/logos/dotnet-pink.png"
               containerRef={grid2Container}
-            />
-            <Card
+            /> */}
+            {/* <Card
               style={{ rotate: "-45deg", top: "5%", left: "10%" }}
               image="assets/logos/blazor-pink.png"
               containerRef={grid2Container}
-            />
+            /> */}
           </div>
         </div>
         {/* Grid 3 */}
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
-            <p className="headtext">Time Zone</p>
+            <p className="headtext">I'm found in</p>
             <p className="subtext">
-              I'm based in Mars, and open to remote work worldwide
+              India, is where I belong to, currently residing in Bhubaneswar, Odisha completing my engineering from BPUT in<br />
+              the field of Computer Science and Engineering.
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
@@ -92,7 +106,7 @@ const About = () => {
         <div className="grid-special-color grid-4">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
             <p className="text-center headtext">
-              Do you want to start a project together?
+              If I caught your attention and if you feel like working with me or that I stand any chance ?
             </p>
             <CopyEmailButton />
           </div>
@@ -102,8 +116,10 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
-              allow me to build robust and scalable applications
+              Languages : C++, Rust, Python, Java, Go, JavaScript, TypeScript ,<br />
+              Backend & Systems : Node.js, High-performance C++ systems, concurrent & low-latency design<br />
+              Blockchain & Web3 : Solidity, Ethereum, Solana, Web3.js, Ethers.js, DeFi & smart contracts<br />
+              Focus Areas : DSA, system design, performance optimization, scalable backend architecture<br />
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">

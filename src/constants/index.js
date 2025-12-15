@@ -1,43 +1,43 @@
 export const myProjects = [
+  // {
+  //   id: 1,
+  //   title: "E-commerce Platform",
+  //   description:
+  //     "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+  //   subDescription: [
+  //     "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
+  //     "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
+  //     "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
+  //     "Added payment systems, localization, and product filtering for functionality improvements.",
+  //   ],
+  //   href: "",
+  //   logo: "",
+  //   image: "/assets/projects/accessories.jpg",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "C#",
+  //       path: "/assets/logos/csharp.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: ".Net",
+  //       path: "/assets/logos/dotnet.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "Ef Core",
+  //       path: "/assets/logos/efcore.png",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "TailwindCSS",
+  //       path: "/assets/logos/tailwindcss.svg",
+  //     },
+  //   ],
+  // },
   {
     id: 1,
-    title: "E-commerce Platform",
-    description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
-    subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/accessories.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
     title: "Authentication & Authorization System",
     description:
       "A secure authentication and authorization system using Auth0 for seamless user management.",
@@ -47,7 +47,7 @@ export const myProjects = [
       "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
       "Connected to a secure SQLite database for user data storage.",
     ],
-    href: "",
+    href: "https://github.com/godComplex-Yash/codeX",
     logo: "",
     image: "/assets/projects/auth-system.jpg",
     tags: [
@@ -73,43 +73,43 @@ export const myProjects = [
       },
     ],
   },
-  {
-    id: 3,
-    title: "Blazor Web App",
-    description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   title: "Blazor Web App",
+  //   description:
+  //     "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+  //   subDescription: [
+  //     "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
+  //     "Implemented API interactions using .NET Core for a robust backend.",
+  //     "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
+  //     "Integrated SQLite for efficient client-side database storage.",
+  //   ],
+  //   href: "",
+  //   logo: "",
+  //   image: "/assets/projects/blazor-app.jpg",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "Blazor",
+  //       path: "/assets/logos/blazor.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: ".NET Core",
+  //       path: "/assets/logos/dotnetcore.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "SQLite",
+  //       path: "/assets/logos/sqlite.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "TailwindCSS",
+  //       path: "/assets/logos/tailwindcss.svg",
+  //     },
+  //   ],
+  // },
   {
     id: 4,
     title: "C++ Game Engine",
@@ -147,43 +147,43 @@ export const myProjects = [
       },
     ],
   },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   title: "WordPress Custom Theme",
+  //   description:
+  //     "A fully customizable WordPress theme optimized for performance and SEO.",
+  //   subDescription: [
+  //     "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
+  //     "Integrated Tailwind CSS for modern styling and UI enhancements.",
+  //     "Optimized SEO and page speed using Vite.js for fast builds.",
+  //     "Implemented custom widgets and plugin compatibility for extended functionality.",
+  //   ],
+  //   href: "",
+  //   logo: "",
+  //   image: "/assets/projects/wordpress-theme.jpg",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "WordPress",
+  //       path: "/assets/logos/wordpress.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "HTML5",
+  //       path: "/assets/logos/html5.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "CSS3",
+  //       path: "/assets/logos/css3.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "Vite.js",
+  //       path: "/assets/logos/vitejs.svg",
+  //     },
+  //   ],
+  // },
   {
     id: 6,
     title: "Online Learning Platform",
@@ -199,16 +199,16 @@ export const myProjects = [
     logo: "",
     image: "/assets/projects/elearning.jpg",
     tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
+      // {
+      //   id: 1,
+      //   name: "Blazor",
+      //   path: "/assets/logos/blazor.svg",
+      // },
+      // {
+      //   id: 2,
+      //   name: "Azure",
+      //   path: "/assets/logos/azure.svg",
+      // },
       {
         id: 3,
         name: "Stripe",
@@ -224,105 +224,106 @@ export const myProjects = [
 ];
 
 export const mySocials = [
-  {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
+  // {
+  //   name: "WhatsApp",
+  //   href: "",
+  //   icon: "/assets/socials/whatsApp.svg",
+  // },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/yashlaxmisharma333/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/yxshprsnl.exe/",
     icon: "/assets/socials/instagram.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Competitive Programmer",
+    job: "Solving tough CP problems with optimized approach",
+    date: "2022-present",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Secured multiple 3 digit ranks at various programming contests across multiple platforms",
+      "Mentored various school students for starting thier competitive programming journey as a beginner",
+      "Problem Setter and Test Case collaborator for various contests",
+      "Educator at reputed CP communities and channels.",
+      "Secured the spot of top 5 percentile among programmers on codeforces consistently"
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
+    title: "Experience Intern at MEESHO",
+    job: "Backend Developer Intern",
     date: "2023-2024",
     contents: [
       "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Developed back-end systems enabling faster rendering of graphic heavy client side components upto 45%",
+      "Implemented secure, safe, fast and efficient api's that serve endpoints for crucial microservices",
+      "Designed and wrote functions that help data model migrations without suffering at any breakpoint",
+      "Delivered remote features like real-time tracking, and remote start capabilities.",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
+    title: "Founder codeX",
+    job: "CTO",
     date: "2025-Present",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Created a platform for freshers to solve real time issues present in large codebases via simulation and stores credentials in a blockchain.",
+      "Raised a round on the prototype stage but failed badly and guess what I'm still trying to raise a hell of it",
+      "I will either fail or will end up learning how one must not process things in a particular direction"
     ],
   },
 ];
 export const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
+    //name: "Jack",
+    //username: "@jack",
+    body: "Codeforces round 1059, rank 2989",
+    //img: "https://robohash.org/jack",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
+    // name: "Jill",
+    // username: "@jill",
+    body: "Codeforces round 1068, rank 1130",
+    // img: "https://robohash.org/jill",
+  },
+  // {
+  //   name: "John",
+  //   username: "@john",
+  //   body: "I'm at a loss for words. This is amazing. I love it.",
+  //   img: "https://robohash.org/john",
+  // },
+  // {
+  //   name: "Alice",
+  //   username: "@alice",
+  //   body: "This is hands down the best thing I've experienced. Highly recommend!",
+  //   img: "https://robohash.org/alice",
+  // },
+  {
+    // name: "Bob",
+    // username: "@bob",
+    body: "published a research paper on concurrency and parallelism in C++",
+    // img: "https://robohash.org/bob",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
+    // name: "Charlie",
+    // username: "@charlie",
+    body: "AtCoder TOYOTA Programming Contest, rank 3289.",
+    // img: "https://robohash.org/charlie",
   },
   {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
+    // name: "Dave",
+    // username: "@dave",
+    body: "Specialist on Codeforces",
+    // img: "https://robohash.org/dave",
   },
   {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
-  },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
+    // name: "Eve",
+    // username: "@eve",
+    body: "CodeChef starters, rank 530",
+    // img: "https://robohash.org/eve",
   },
 ];
